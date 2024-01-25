@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { Card, Col, Container, ListGroup, Row } from 'react-bootstrap'
+import React from 'react'
+import { Card, Col, Container,Row } from 'react-bootstrap'
 import { useParams } from 'react-router-dom'
 import "../components/Details.css";
 import { useSelector } from 'react-redux';
@@ -12,7 +12,7 @@ function Details() {
   const restaurants=useSelector((state) => state.data.restaurants);
   console.log(id);
  
-  const currentRes = restaurants.find((res) => res._id == id);
+  const currentRes = restaurants.find((res) => res._id === id);
   console.log(currentRes);
   return (
     <Container>

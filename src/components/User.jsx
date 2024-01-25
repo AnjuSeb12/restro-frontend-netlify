@@ -44,7 +44,7 @@ function User() {
         getUserDetails();
 
 
-    },[])
+    },[id,navigate])
     
     const handleFormSubmit = async (e) => {
         e.preventDefault();
