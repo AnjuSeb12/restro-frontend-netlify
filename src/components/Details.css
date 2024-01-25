@@ -1,0 +1,13 @@
+body{
+    height: 100px;
+}
+#textStyle{
+    color:aqua
+}
+#width{
+    height: 200px !important;
+   
+}
+.card-title{
+    color:green;
+}
