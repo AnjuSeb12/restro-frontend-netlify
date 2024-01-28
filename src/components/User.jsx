@@ -36,9 +36,9 @@ function User() {
                 // console.log(res.data.user);
             
             }catch(error){
-               
+                navigate("/users"); 
 
-            } navigate("/users");
+            }
 
         }
         getUserDetails();

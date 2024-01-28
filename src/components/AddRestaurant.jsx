@@ -11,6 +11,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
+
 function AddRestaurant() {
     const [restaurantName, setRestaurantName] = useState('');
     const [restaurantAddress, setRestaurantAddress] = useState('');
